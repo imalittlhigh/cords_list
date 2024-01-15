@@ -11,5 +11,6 @@ tag @s add clist.player.registered
 execute store result storage clist:player count int 1 run scoreboard players get @s clist_playercount
 
 scoreboard players set @s clist_trigger_display 0
+scoreboard players enable @s clist_trigger_display
 
 function clist:player/create_team with storage clist:player
