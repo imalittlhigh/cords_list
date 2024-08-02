@@ -4,10 +4,10 @@
             "text": "Coordinate List"
         },
         "description": {
-            "text": "https://www.planetminecraft.com/data-pack/coordinate-list-display-coordinates-in-server-list/"
+            "text": "Use /trigger clist_trigger_display do hide/show your coordinates"
         },
         "icon": {
-            "item": "minecraft:compass"
+            "id": "minecraft:compass"
         },
         "frame": "task",
         "show_toast": false,
